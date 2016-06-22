@@ -1,2 +1,8 @@
 What happens when you initialize a repository? Why do you need to do it?
 the infrastructure for tracking files is generated. To facilitate future commits.
+
+Working directory: the folder containing the files in their current state
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+it a subset of the working directory, just some of the files, so it allows selection of specific files to be committed, by logical changes.
