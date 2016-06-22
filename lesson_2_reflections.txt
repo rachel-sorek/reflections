@@ -1,0 +1,2 @@
+What happens when you initialize a repository? Why do you need to do it?
+the infrastructure for tracking files is generated. To facilitate future commits.
