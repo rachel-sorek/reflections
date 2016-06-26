@@ -6,3 +6,27 @@ Working directory: the folder containing the files in their current state
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 it a subset of the working directory, just some of the files, so it allows selection of specific files to be committed, by logical changes.
+
+How can you use the staging area to make sure you have one commit per logical change?
+you can make sure that only the files related to a specific logical change are commited. Other cmodified files are not staged so they will not be commited as part of the sepcific commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+when there are several paths of development that are independent and you want to keep separate.
+
+How do the diagrams help you visualize the branch structure?
+it emphasizes the parent of every commit on each branch so its easy to identify unreachable commits and avoid it by creating new branches if necessary.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+it combines the work on two different features of the software. It's represented this way since it has two parents.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pros: Automatic merging is quick and efficient and is appropriate most of the time. There's a danger of getting the merges wrong and ending with senseless code. Manual merge is very tedious and is more likely to result is meaningful commits, yet it takes a lot of time nad effort.
+
+
+HowTos
+
+Command to show all tracked files in a repository:
+git ls-tree -r master --name-only
+
+
+Bare repository
