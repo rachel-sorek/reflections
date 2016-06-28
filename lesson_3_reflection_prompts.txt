@@ -13,3 +13,11 @@ Forks is only useful to relate clones on github to their source. Clones is when 
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 it allows you to work off line, and to handle conflicts locally 
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+I would send code files over email and contact the contributors directly. This would be easier for a small group but very hard to coordinate with a larger group.
+
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+when Im not certain the change is needed, or where it really make the software different.
